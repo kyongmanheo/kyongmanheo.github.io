@@ -4,8 +4,20 @@ title: "Kyongman Heo"
 excerpt: "Herpetology, Conservation Biology, Ecological Adaptation"
 header:
   overlay_image: /assets/images/field_banner.jpg
-  overlay_filter: 0.4 # 글씨가 잘 보이도록 배경 이미지를 40%만큼 어둡게 처리합니다.
+  overlay_filter: 0.4
 ---
+
+<style>
+  /* 1920x600 이미지 비율을 가장 예쁘게 살려주는 맞춤형 여백 */
+  .page__hero--overlay {
+    padding: 4em 0 !important; /* 모바일 화면 여백 (적당히 아담하게) */
+  }
+  @media (min-width: 768px) {
+    .page__hero--overlay {
+      padding: 6.5em 0 !important; /* PC 화면 여백 (자연스럽게 시원한 느낌) */
+    }
+  }
+</style>
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; margin-top: 3em; gap: 40px;">
   
