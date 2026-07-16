@@ -30,7 +30,7 @@ author:
 # Theme Settings (신유철 연구원 스타일의 세련된 'air' 스킨)
 # ==========================================
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "air" # ★ 기본 default에서 가장 하얗고 세련된 'air'로 교체했습니다.
+minimal_mistakes_skin: "default" # ★ 기본 default에서 가장 하얗고 세련된 'air'로 교체했습니다.
 
 # ==========================================
 # Collections
