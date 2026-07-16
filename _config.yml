@@ -4,7 +4,7 @@
 title: "Kyongman Heo"
 locale: "en-US"
 description: "Herpetologist & Evolutionary Biologist"
-url: "https://kyongmanheo.github.io" # ★ 중요: 본인의 실제 GitHub 아이디로 수정하세요!
+url: "https://kyongmanheo.github.io"
 baseurl: "" # 빈칸으로 둡니다.
 
 # ==========================================
@@ -14,23 +14,23 @@ author:
   name: "Kyongman Heo (허경만)"
   bio: "Herpetology, Conservation Biology, Ecological Adaptation"
   location: "South Korea"
-  avatar: "/assets/images/profile.jpg" # 나중에 본인 프로필 사진을 올릴 경로입니다.
+  avatar: "/assets/images/profile.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:your-email@email.com" # 본인 이메일로 변경하세요!
+      url: "kmheo3187@gmail.com"
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Kyongman-Heo"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/kyongmanheo" # 본인 깃허브 아이디로 변경하세요!
+      url: "https://github.com/kyongmanheo"
 
 # ==========================================
-# Theme Settings (신유철 연구원 스타일의 세련된 'air' 스킨)
+# Theme Settings
 # ==========================================
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # ★ 기본 default에서 가장 하얗고 세련된 'air'로 교체했습니다.
+minimal_mistakes_skin: "default"
 
 # ==========================================
 # Collections
