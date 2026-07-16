@@ -24,10 +24,18 @@ author:
       url: "https://github.com"
 
 # ==========================================
-# Theme Settings (오타 수정 반영)
+# Theme Settings
 # ==========================================
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
+
+# ==========================================
+# Collections (★ 404 에러 해결 핵심 코드!)
+# ==========================================
+collections:
+  pages:
+    output: true
+    permalink: /:path/
 
 # ==========================================
 # Site Defaults
