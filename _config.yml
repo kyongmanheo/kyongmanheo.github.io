@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 # Site Settings
-title: "Kyongman Heo"
+title: "Kyongman Heo" # <- 기존에 "MM" 또는 "Minimal Mistakes"라고 적힌 부분을 이렇게 수정합니다.
 locale: "en-US"
 description: "Herpetologist & Evolutionary Biologist"
 url: "https://kyongmanheo.github.io" # 본인 실제 아이디로 바꾸세요!
