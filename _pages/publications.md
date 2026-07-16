@@ -7,7 +7,9 @@ author_profile: true
 
 *(Last updated: July 2026)*
 
-## Peer-Reviewed Journal Articles
+Below is the complete list of my published papers and scientific notes, ordered chronologically.
+
+---
 
 * **First record and origin of the non-native Peking gecko *Gekko swinhonis* Günther, 1864 (Squamata: Gekkonidae), newly discovered in Incheon Metropolitan City, South Korea**  
   **Kyongman Heo**, Mi-Sook Min, Amaël Borzée  
@@ -24,15 +26,6 @@ author_profile: true
   *Zoological Studies*, 61:32 (2022).  
   [DOI Link](https://doi.org/10.6620/ZS.2022.61-32)
 
-* **Impact of land reclamation and agricultural water regime on the distribution and conservation status of the endangered *Dryophytes suweonensis***  
-  Amaël Borzée, **Kyongman Heo**, et al.  
-  *PeerJ*, 5, e3756 (2017).  
-  [DOI Link](https://doi.org/10.7717/peerj.3756)
-
----
-
-## Natural History Notes
-
 * **Hynobius notialis (Southern Korean Salamander) Behavior**  
   **Kyongman Heo**, Amaël Borzée  
   *Herpetological Review*, 53(2), 296-297 (2022).
@@ -41,4 +34,7 @@ author_profile: true
   **Kyongman Heo**, Amaël Borzée  
   *Herpetological Review*, 50(3), 548-549 (2019).
 
-  #
+* **Impact of land reclamation and agricultural water regime on the distribution and conservation status of the endangered *Dryophytes suweonensis***  
+  Amaël Borzée, **Kyongman Heo**, and Yeong-Seok Bae  
+  *PeerJ*, 5, e3756 (2017).  
+  [DOI Link](https://doi.org/10.7717/peerj.3756)
