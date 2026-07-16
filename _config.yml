@@ -14,7 +14,7 @@ author:
   name: "Kyongman Heo (허경만)"
   bio: "Herpetology, Conservation Biology, Ecological Adaptation"
   location: "South Korea"
-  avatar: "/assets/images/profile.jpg" # 나중에 본인 프로필 사진을 올릴 경로입니다.
+  #avatar: "/assets/images/profile.jpg" # 나중에 본인 프로필 사진을 올릴 경로입니다.
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
