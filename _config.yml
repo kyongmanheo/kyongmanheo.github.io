@@ -1,25 +1,57 @@
 # ==========================================
-# Site Settings (초간결 디버깅용)
+# Site Settings
 # ==========================================
 title: "Kyongman Heo"
 locale: "en-US"
 description: "Herpetologist & Evolutionary Biologist"
 
 # ==========================================
-# Site Author
+# Site Author (왼쪽 프로필 영역 설정)
 # ==========================================
 author:
   name: "Kyongman Heo (허경만)"
   bio: "Herpetology, Conservation Biology, Ecological Adaptation"
   location: "South Korea"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:your-email@email.com"
+    - label: "ResearchGate"
+      icon: "fab fa-fw fa-researchgate"
+      url: "https://www.researchgate.net/profile/Kyongman-Heo"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com"
 
 # ==========================================
-# Theme Settings (원격 테마만 지정)
+# Theme Settings (오타 수정 반영)
 # ==========================================
-remote_theme: "mmistakes/minimal-mistakes@4.24.4"
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
 
 # ==========================================
-# Plugins (에러 유발 가능성이 높은 플러그인 전부 제외)
+# Site Defaults
 # ==========================================
-plugins: []
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+
+# ==========================================
+# Plugins
+# ==========================================
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
