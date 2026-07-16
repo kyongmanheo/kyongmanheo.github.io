@@ -1,9 +1,8 @@
 ---
+title: "Hello, thank you for visiting my website!"
 layout: single
 author_profile: true
 ---
-
-# Hello, thank you for visiting my website!
 
 My name is **Kyongman Heo (허경만)**. I am a herpetologist and conservation biologist based in South Korea. My research focuses on how amphibians and reptiles adapt to rapidly changing environments, climate change, and human disturbances. 
 
