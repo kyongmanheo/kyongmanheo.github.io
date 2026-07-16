@@ -1,9 +1,11 @@
 # ==========================================
-# Site Settings
+# Site Settings (CSS 깨짐 방지를 위해 주소 필수 지정!)
 # ==========================================
 title: "Kyongman Heo"
 locale: "en-US"
 description: "Herpetologist & Evolutionary Biologist"
+url: "https://kyongmanheo.github.io" # ★ 중요: 본인의 실제 GitHub 아이디로 수정하세요!
+baseurl: "" # 빈칸으로 둡니다.
 
 # ==========================================
 # Site Author (왼쪽 프로필 영역 설정)
@@ -12,25 +14,26 @@ author:
   name: "Kyongman Heo (허경만)"
   bio: "Herpetology, Conservation Biology, Ecological Adaptation"
   location: "South Korea"
+  avatar: "/assets/images/profile.jpg" # 나중에 본인 프로필 사진을 올릴 경로입니다.
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:your-email@email.com"
+      url: "mailto:your-email@email.com" # 본인 이메일로 변경하세요!
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Kyongman-Heo"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com"
+      url: "https://github.com/kyongmanheo" # 본인 깃허브 아이디로 변경하세요!
 
 # ==========================================
-# Theme Settings
+# Theme Settings (신유철 연구원 스타일의 세련된 'air' 스킨)
 # ==========================================
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "air" # ★ 기본 default에서 가장 하얗고 세련된 'air'로 교체했습니다.
 
 # ==========================================
-# Collections (★ 404 에러 해결 핵심 코드!)
+# Collections
 # ==========================================
 collections:
   pages:
