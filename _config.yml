@@ -1,59 +1,25 @@
 # ==========================================
-# Site Settings
+# Site Settings (초간결 디버깅용)
 # ==========================================
 title: "Kyongman Heo"
 locale: "en-US"
 description: "Herpetologist & Evolutionary Biologist"
-# url: "https://username.github.io" # 나중에 도메인이 안정되면 주석(#)을 지우고 본인 주소를 넣으셔도 됩니다.
 
 # ==========================================
-# Site Author (왼쪽 프로필 영역 설정)
+# Site Author
 # ==========================================
 author:
   name: "Kyongman Heo (허경만)"
-  avatar: "/assets/images/profile.jpg" # 나중에 본인 사진 파일명으로 바꾸시면 됩니다.
   bio: "Herpetology, Conservation Biology, Ecological Adaptation"
   location: "South Korea"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:your-email@email.com"
-    - label: "ResearchGate"
-      icon: "fab fa-fw fa-researchgate"
-      url: "https://www.researchgate.net/profile/Kyongman-Heo"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com"
 
 # ==========================================
-# Theme Settings (GitHub Pages 필수 빌드 설정)
+# Theme Settings (원격 테마만 지정)
 # ==========================================
 remote_theme: "mmistakes/minimal-mistakes@4.24.4"
-minimal_mistakes_skin: "default" # 스킨 스타일 (default, air, dark, mint 등 선택 가능)
+minimal_mistakes_skin: "default"
 
 # ==========================================
-# Site Defaults (모든 페이지에 왼쪽 프로필바 자동 활성화)
+# Plugins (에러 유발 가능성이 높은 플러그인 전부 제외)
 # ==========================================
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "single"
-      author_profile: true
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "single"
-      author_profile: true
-
-# ==========================================
-# Plugins (빌드에 필요한 필수 기능 플러그인)
-# ==========================================
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+plugins: []
