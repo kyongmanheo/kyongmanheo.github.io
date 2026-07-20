@@ -68,7 +68,8 @@
       margin-top: 1.4em !important;
     }
   }
-  /* 갤러리 앨범 격자 레이아웃 */
+
+  /* 3. 갤러리 앨범 격자 레이아웃 및 라이트박스 커서 효과 */
   .photo-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -89,6 +90,12 @@
   .photo-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  }
+
+  /* 라이트박스 클릭 링크 영역 및 돋보기 커서 */
+  .photo-card a.image-popup {
+    display: block;
+    cursor: zoom-in;
   }
 
   .photo-card img {
