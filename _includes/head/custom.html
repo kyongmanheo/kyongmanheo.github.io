@@ -8,41 +8,51 @@
     top: 0 !important;
     z-index: 1000 !important;
     background-color: #ffffff !important;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important; /* 고정되었을 때 밑에 살짝 음영 */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important;
   }
 
-  /* 2. 데스크톱 레이아웃 붕괴 완벽 수습 */
+  /* 2. 데스크톱 레이아웃 정돈 (좌측 프로필 + 우측 본문) */
   @media (min-width: 64em) {
-    /* 전체 화면 폭을 넓히고 중앙 배치 */
+    /* 전체 중앙 정렬 및 여백 확보 */
     #main {
       max-width: 1280px !important;
       margin: 0 auto !important;
+      padding-left: 2em !important;
+      padding-right: 2em !important;
     }
 
-    /* 제목과 본문을 감싸는 전체 틀을 우측에 넉넉하게 배치 */
-    .page__inner-wrap {
+    /* 좌측 프로필 사이드바 위치 고정 */
+    .sidebar {
+      float: left !important;
+      width: 280px !important;
+      display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+
+    /* 우측 본문 영역 (테마 기본 우측 빈 여백 제거) */
+    .page {
       float: right !important;
-      width: calc(100% - 320px) !important; /* 프로필 사이드바 빼고 남은 전체 폭 */
-      padding-left: 20px !important;
+      width: calc(100% - 310px) !important;
+      padding-right: 0 !important; /* 휑하던 오른쪽 여백 300px 삭제 */
     }
 
-    /* 찢어졌던 제목과 본문을 정상적으로 위아래 배치 */
-    .page__title, .page__content {
-      width: 100% !important;
+    .page__inner-wrap {
       float: none !important;
+      width: 100% !important;
+      padding: 0 !important;
     }
 
-    /* 제목 글씨 크기 및 여백 정돈 */
+    /* 본문 및 제목 폰트 크기 세련되게 정돈 */
     .page__title {
       font-size: 2.1rem !important;
       margin-top: 0 !important;
       margin-bottom: 0.6em !important;
     }
 
-    /* 본문 텍스트 규격 정돈 */
     .page__content {
-      font-size: 0.95rem !important;
-      line-height: 1.65 !important;
+      font-size: 0.98rem !important;
+      line-height: 1.7 !important;
     }
 
     .page__content h2 {
