@@ -13,11 +13,15 @@ A visual record of field surveys, herpetofauna species, and research sites acros
 
 <div class="photo-grid">
   <div class="photo-card">
-    <img src="/assets/images/gallery/treefrog_1.jpg" alt="Japanese Treefrog">
+    <a href="/assets/images/gallery/treefrog_1.jpg" class="image-popup" title="Japanese Treefrog (Dryophytes japonicus)">
+      <img src="/assets/images/gallery/treefrog_1.jpg" alt="Japanese Treefrog">
+    </a>
     <p><b>Japanese Treefrog</b> (<i>Dryophytes japonicus</i>)<br><small>Jeju Island Coastal Pool</small></p>
   </div>
   <div class="photo-card">
-    <img src="/assets/images/gallery/salamander_1.jpg" alt="Southern Korean Salamander">
+    <a href="/assets/images/gallery/salamander_1.jpg" class="image-popup" title="Southern Korean Salamander (Hynobius notialis)">
+      <img src="/assets/images/gallery/salamander_1.jpg" alt="Southern Korean Salamander">
+    </a>
     <p><b>Southern Korean Salamander</b> (<i>Hynobius notialis</i>)<br><small>Southern Forest Habitat</small></p>
   </div>
 </div>
@@ -28,7 +32,9 @@ A visual record of field surveys, herpetofauna species, and research sites acros
 
 <div class="photo-grid">
   <div class="photo-card">
-    <img src="/assets/images/gallery/snake_1.jpg" alt="Red-banded Snake">
+    <a href="/assets/images/gallery/snake_1.jpg" class="image-popup" title="Red-banded Snake (Lycodon rufozonatus)">
+      <img src="/assets/images/gallery/snake_1.jpg" alt="Red-banded Snake">
+    </a>
     <p><b>Red-banded Snake</b> (<i>Lycodon rufozonatus</i>)<br><small>Jeju Island Survey</small></p>
   </div>
 </div>
@@ -39,7 +45,9 @@ A visual record of field surveys, herpetofauna species, and research sites acros
 
 <div class="photo-grid">
   <div class="photo-card">
-    <img src="/assets/images/gallery/field_1.jpg" alt="Field Survey">
+    <a href="/assets/images/gallery/field_1.jpg" class="image-popup" title="Nocturnal Field Survey">
+      <img src="/assets/images/gallery/field_1.jpg" alt="Field Survey">
+    </a>
     <p><b>Nocturnal Field Survey</b><br><small>Stream habitat investigation</small></p>
   </div>
 </div>
