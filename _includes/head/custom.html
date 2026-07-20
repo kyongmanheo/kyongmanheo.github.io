@@ -1,40 +1,61 @@
 <!-- 파비콘 설정 -->
 <link rel="icon" type="image/png" href="/assets/images/favicon.png">
 
-<!-- PC 화면 본문 레이아웃 및 폰트 크기 커스텀 -->
 <style>
+  /* 1. 상단 메뉴바 스크롤 고정 (Sticky Header) */
+  .masthead {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1000 !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important; /* 고정되었을 때 밑에 살짝 음영 */
+  }
+
+  /* 2. 데스크톱 레이아웃 붕괴 완벽 수습 */
   @media (min-width: 64em) {
-    /* 오른쪽으로 휑하게 남던 빈 공간을 넓혀 본문 채우기 */
-    .page__content {
-      float: right !important;
-      width: calc(100% - 300px) !important; /* 사이드바 제외한 전체 영역 사용 */
-      max-width: 1100px !important;
-      font-size: 0.92rem !important; /* 본문 텍스트 크기 정돈 */
+    /* 전체 화면 폭을 넓히고 중앙 배치 */
+    #main {
+      max-width: 1280px !important;
+      margin: 0 auto !important;
     }
 
-    /* 거대했던 제목 글씨 크기 단정하게 축소 */
-    .page__title {
-      font-size: 1.75rem !important;
-      margin-bottom: 0.5em !important;
+    /* 제목과 본문을 감싸는 전체 틀을 우측에 넉넉하게 배치 */
+    .page__inner-wrap {
+      float: right !important;
+      width: calc(100% - 320px) !important; /* 프로필 사이드바 빼고 남은 전체 폭 */
+      padding-left: 20px !important;
     }
-    
+
+    /* 찢어졌던 제목과 본문을 정상적으로 위아래 배치 */
+    .page__title, .page__content {
+      width: 100% !important;
+      float: none !important;
+    }
+
+    /* 제목 글씨 크기 및 여백 정돈 */
+    .page__title {
+      font-size: 2.1rem !important;
+      margin-top: 0 !important;
+      margin-bottom: 0.6em !important;
+    }
+
+    /* 본문 텍스트 규격 정돈 */
+    .page__content {
+      font-size: 0.95rem !important;
+      line-height: 1.65 !important;
+    }
+
     .page__content h2 {
-      font-size: 1.3rem !important;
-      border-bottom: 1px solid #495057 !important;
-      padding-bottom: 0.3em !important;
-      margin-top: 1.8em !important;
+      font-size: 1.35rem !important;
+      border-bottom: 1px solid #e9ecef !important;
+      padding-bottom: 0.4em !important;
+      margin-top: 2em !important;
     }
 
     .page__content h3 {
       font-size: 1.1rem !important;
-      color: #2b8a3e !important; /* 연도 강조 컬러 */
-      margin-top: 1.2em !important;
-    }
-
-    /* 박스(Note 구역) 여백 및 글씨 크기 조절 */
-    .page__content blockquote {
-      font-size: 0.9rem !important;
-      padding: 0.8em 1.2em !important;
+      color: #2b8a3e !important; /* 연도 강조 초록색 */
+      margin-top: 1.4em !important;
     }
   }
 </style>
