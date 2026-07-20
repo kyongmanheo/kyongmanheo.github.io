@@ -1,4 +1,3 @@
-# main navigation links
 main:
   - title: "About"
     url: /about/
@@ -8,5 +7,7 @@ main:
     url: /publications/
   - title: "In the Field"
     url: /in-the-field/
+  - title: "Gallery"
+    url: /gallery/
   - title: "Contact"
     url: /contact/
