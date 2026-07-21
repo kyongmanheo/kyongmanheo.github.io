@@ -32,11 +32,11 @@ I strongly believe in translating scientific findings into public awareness.
 </div>
 
 <script>
-  // 박사님의 iNaturalist 사용자 ID를 입력하세요 (예: 'kyongmanheo')
-  const inatUsername = "YOUR_INAT_USERNAME"; 
+  // 박사님의 iNaturalist 사용자 ID를 입력하세요 (예: 'kyongman')
+  const inatUsername = "kyongman"; 
   
   // 불러올 관찰 기록 개수 (기본 6개)
-  const displayLimit = 6; 
+  const displayLimit = 9; 
 
   fetch(`https://api.inaturalist.org/v1/observations?user_id=${inatUsername}&per_page=${displayLimit}&order=desc&order_by=created_at`)
     .then(response => response.json())
