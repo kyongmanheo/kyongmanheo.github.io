@@ -18,13 +18,16 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "kmheo3187@gmail.com"
+      url: "mailto:kmheo3187@gmail.com" # mailto: 추가
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Kyongman-Heo"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kyongmanheo"
+    - label: "iNaturalist"
+      icon: "fas fa-fw fa-leaf" # 나뭇잎 아이콘
+      url: "https://www.inaturalist.org/people/YOUR_INAT_USERNAME" # iNaturalist ID 입력
 
 # ==========================================
 # Theme Settings
@@ -62,7 +65,7 @@ defaults:
 # ==========================================
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
+  - jekyll-sitemap # 구글 서치콘솔용 자동 sitemap.xml 생성 플러그인
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
